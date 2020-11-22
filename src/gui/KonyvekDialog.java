@@ -200,6 +200,7 @@ public class KonyvekDialog extends javax.swing.JDialog {
     private void listaFrissit() {
 
         List<Konyv> konyvek;
+        System.out.println("teszt");
 
         try {
             konyvek = model.getKonyvekByNev(tfKereses.getText());
